@@ -9,106 +9,106 @@ const colorLightness = 68;
 const lineLightness = 30;
 const frequencies = [
     '#000000', //
-    `hsl(300, 100%, ${colorLightness}%`, // 1
-    `hsl(0, 100%, ${colorLightness}%`, // 2
-    `hsl(0, 100%, ${colorLightness}%`, // 3
-    `hsl(60, 100%, ${colorLightness}%`, // 4
-    `hsl(0, 100%, ${colorLightness}%`, // 5
-    `hsl(120, 100%, ${colorLightness}%`, // 6
-    `hsl(0, 100%, ${colorLightness}%`, // 7
-    `hsl(120, 100%, ${colorLightness}%`, // 8
-    `hsl(60, 100%, ${colorLightness}%`, // 9
-    `hsl(120, 100%, ${colorLightness}%`, // 10
-    `hsl(0, 100%, ${colorLightness}%`, // 11
-    `hsl(240, 100%, ${colorLightness}%`, // 12
+    `hsl(0, 100%, ${colorLightness}%`, // 1, 1
+    `hsl(23, 100%, ${colorLightness}%`, // 2, 2
+    `hsl(23, 100%, ${colorLightness}%`, // 3, 2
+    `hsl(45, 100%, ${colorLightness}%`, // 4, 3
+    `hsl(0, 100%, ${colorLightness}%`, // 5, 2
+    `hsl(68, 100%, ${colorLightness}%`, // 6, 
+    `hsl(23, 100%, ${colorLightness}%`, // 7, 
+    `hsl(68, 100%, ${colorLightness}%`, // 8, 
+    `hsl(45, 100%, ${colorLightness}%`, // 9, 
+    `hsl(68, 100%, ${colorLightness}%`, // 10, 
+    `hsl(23, 100%, ${colorLightness}%`, // 11, 
+    `hsl(113, 100%, ${colorLightness}%`, // 12, 
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 14
-    `hsl(0, 100%, ${colorLightness}%`, // 15
-    `hsl(300, 100%, ${colorLightness}%`, // 16
+    `hsl(68, 100%, ${colorLightness}%`, // 14, 
+    `hsl(68, 100%, ${colorLightness}%`, // 15, 
+    `hsl(60, 100%, ${colorLightness}%`, // 16, 
     '#000000', //
-    `hsl(120, 100%, ${colorLightness}%`, // 18
+    `hsl(113, 100%, ${colorLightness}%`, // 18, 
     '#000000', //
-    `hsl(120, 100%, ${colorLightness}%`, // 20
-    `hsl(0, 100%, ${colorLightness}%`, // 21
-    `hsl(0, 100%, ${colorLightness}%`, // 22
+    `hsl(113, 100%, ${colorLightness}%`, // 20, 
+    `hsl(68, 100%, ${colorLightness}%`, // 21, 
+    `hsl(68, 100%, ${colorLightness}%`, // 22, 
     '#000000', //
-    `hsl(240, 100%, ${colorLightness}%`, // 24
-    `hsl(300, 100%, ${colorLightness}%`, // 25
+    `hsl(158, 100%, ${colorLightness}%`, // 24, 
+    `hsl(45, 100%, ${colorLightness}%`, // 25, 
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 27
-    `hsl(0, 100%, ${colorLightness}%`, // 28
+    `hsl(68, 100%, ${colorLightness}%`, // 27, 
+    `hsl(113, 100%, ${colorLightness}%`, // 28, 
     '#000000', //
-    `hsl(120, 100%, ${colorLightness}%`, // 30
+    `hsl(158, 100%, ${colorLightness}%`, // 30, 
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 32
-    `hsl(0, 100%, ${colorLightness}%`, // 33
+    `hsl(113, 100%, ${colorLightness}%`, // 32, 
+    `hsl(68, 100%, ${colorLightness}%`, // 33, 
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 35
-    `hsl(180, 100%, ${colorLightness}%`, // 36
+    `hsl(68, 100%, ${colorLightness}%`, // 35, 
+    `hsl(180, 100%, ${colorLightness}%`, // 36, 
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(120, 100%, ${colorLightness}%`, // 40
+    `hsl(158, 100%, ${colorLightness}%`, // 40, 
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, //
+    `hsl(158, 100%, ${colorLightness}%`, // 42, 
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 44
-    `hsl(0, 100%, ${colorLightness}%`, // 45
+    `hsl(113, 100%, ${colorLightness}%`, // 44, 6
+    `hsl(113, 100%, ${colorLightness}%`, // 45, 6
     '#000000', //
     '#000000', //
-    `hsl(120, 100%, ${colorLightness}%`, // 48
-    `hsl(300, 100%, ${colorLightness}%`, // 49
-    `hsl(0, 100%, ${colorLightness}%`, // 50
+    `hsl(203, 100%, ${colorLightness}%`, // 48, 10
+    `hsl(45, 100%, ${colorLightness}%`, // 49, 3
+    `hsl(113, 100%, ${colorLightness}%`, // 50, 6
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 54
-    `hsl(0, 100%, ${colorLightness}%`, // 55
-    `hsl(0, 100%, ${colorLightness}%`, // 56
+    `hsl(158, 100%, ${colorLightness}%`, // 54, 8
+    `hsl(68, 100%, ${colorLightness}%`, // 55, 4
+    `hsl(158, 100%, ${colorLightness}%`, // 56, 8
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(120, 100%, ${colorLightness}%`, // 60
+    `hsl(248, 100%, ${colorLightness}%`, // 60, 12
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 63
-    `hsl(300, 100%, ${colorLightness}%`, // 64
+    `hsl(113, 100%, ${colorLightness}%`, // 63, 6
+    `hsl(135, 100%, ${colorLightness}%`, // 64, 7
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 66
+    `hsl(158, 100%, ${colorLightness}%`, // 66, 8
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 70
+    `hsl(158, 100%, ${colorLightness}%`, // 70, 8
     '#000000', //
-    `hsl(120, 100%, ${colorLightness}%`, // 72
+    `hsl(248, 100%, ${colorLightness}%`, // 72, 12
     '#000000', //
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 77
+    `hsl(68, 100%, ${colorLightness}%`, // 77, 4
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 80
-    `hsl(300, 100%, ${colorLightness}%`, // 81
+    `hsl(203, 100%, ${colorLightness}%`, // 80, 10
+    `hsl(90, 100%, ${colorLightness}%`, // 81, 5
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 84
+    `hsl(248, 100%, ${colorLightness}%`, // 84, 12
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 88
+    `hsl(158, 100%, ${colorLightness}%`, // 88, 8
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 90
+    `hsl(248, 100%, ${colorLightness}%`, // 90, 12
     '#000000', //
     '#000000', //
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 96
+    `hsl(248, 100%, ${colorLightness}%`, // 96, 12
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 99
-    `hsl(300, 100%, ${colorLightness}%`, // 100
+    `hsl(113, 100%, ${colorLightness}%`, // 99, 6
+    `hsl(180, 100%, ${colorLightness}%`, // 100, 9
     '#000000', //
     '#000000', //
     '#000000', //
@@ -116,9 +116,9 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 108
+    `hsl(248, 100%, ${colorLightness}%`, // 108, 12
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 110
+    `hsl(158, 100%, ${colorLightness}%`, // 110, 8
     '#000000', //
     '#000000', //
     '#000000', //
@@ -128,8 +128,8 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 120
-    `hsl(300, 100%, ${colorLightness}%`, // 121
+    `hsl(338, 100%, ${colorLightness}%`, // 120, 16
+    `hsl(45, 100%, ${colorLightness}%`, // 121, 3
     '#000000', //
     '#000000', //
     '#000000', //
@@ -140,7 +140,7 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(0, 100%, ${colorLightness}%`, // 132
+    `hsl(248, 100%, ${colorLightness}%`, // 132, 12
     '#000000', //
     '#000000', //
     '#000000', //
@@ -152,7 +152,7 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    `hsl(300, 100%, ${colorLightness}%` // 144
+    `hsl(315, 100%, ${colorLightness}%`, // 144, 16
 ];
 
 canvas.width = window.innerWidth;
