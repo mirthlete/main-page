@@ -5,108 +5,110 @@ const rowsArray = [];
 const colsArray = [];
 const usedPositions = [];
 
+const colorLightness = 68;
+const lineLightness = 30;
 const frequencies = [
     '#000000', //
-    '#ff7777', // 1
-    '#ff7777', // 2
-    '#ff7777', // 3
-    '#77ff77', // 4
-    '#ff7777', // 5
-    '#77ff77', // 6
-    '#ff7777', // 7
-    '#77ff77', // 8
-    '#77ff77', // 9
-    '#77ff77', // 10
-    '#ff7777', // 11
-    '#7777ff', // 12
+    `hsl(300, 100%, ${colorLightness}%`, // 1
+    `hsl(0, 100%, ${colorLightness}%`, // 2
+    `hsl(0, 100%, ${colorLightness}%`, // 3
+    `hsl(60, 100%, ${colorLightness}%`, // 4
+    `hsl(0, 100%, ${colorLightness}%`, // 5
+    `hsl(120, 100%, ${colorLightness}%`, // 6
+    `hsl(0, 100%, ${colorLightness}%`, // 7
+    `hsl(120, 100%, ${colorLightness}%`, // 8
+    `hsl(60, 100%, ${colorLightness}%`, // 9
+    `hsl(120, 100%, ${colorLightness}%`, // 10
+    `hsl(0, 100%, ${colorLightness}%`, // 11
+    `hsl(240, 100%, ${colorLightness}%`, // 12
     '#000000', //
-    '#ff7777', // 14
-    '#ff7777', // 15
-    '#ff7777', // 16
+    `hsl(0, 100%, ${colorLightness}%`, // 14
+    `hsl(0, 100%, ${colorLightness}%`, // 15
+    `hsl(300, 100%, ${colorLightness}%`, // 16
     '#000000', //
-    '#77ff77', // 18
+    `hsl(120, 100%, ${colorLightness}%`, // 18
     '#000000', //
-    '#77ff77', // 20
-    '#ff7777', // 21
-    '#ff7777', // 22
+    `hsl(120, 100%, ${colorLightness}%`, // 20
+    `hsl(0, 100%, ${colorLightness}%`, // 21
+    `hsl(0, 100%, ${colorLightness}%`, // 22
     '#000000', //
-    '#7777ff', // 24
-    '#ff7777', // 25
+    `hsl(240, 100%, ${colorLightness}%`, // 24
+    `hsl(300, 100%, ${colorLightness}%`, // 25
     '#000000', //
-    '#ff7777', // 27
-    '#ff7777', // 28
+    `hsl(0, 100%, ${colorLightness}%`, // 27
+    `hsl(0, 100%, ${colorLightness}%`, // 28
     '#000000', //
-    '#77ff77', // 30
+    `hsl(120, 100%, ${colorLightness}%`, // 30
     '#000000', //
-    '#ff7777', // 32
-    '#ff7777', // 33
+    `hsl(0, 100%, ${colorLightness}%`, // 32
+    `hsl(0, 100%, ${colorLightness}%`, // 33
     '#000000', //
-    '#ff7777', // 35
-    '#7777ff', // 36
+    `hsl(0, 100%, ${colorLightness}%`, // 35
+    `hsl(180, 100%, ${colorLightness}%`, // 36
     '#000000', //
     '#000000', //
     '#000000', //
-    '#77ff77', // 40
+    `hsl(120, 100%, ${colorLightness}%`, // 40
     '#000000', //
-    '#ff7777', //
+    `hsl(0, 100%, ${colorLightness}%`, //
     '#000000', //
-    '#ff7777', // 44
-    '#ff7777', // 45
+    `hsl(0, 100%, ${colorLightness}%`, // 44
+    `hsl(0, 100%, ${colorLightness}%`, // 45
     '#000000', //
     '#000000', //
-    '#77ff77', // 48
-    '#ff7777', //
-    '#ff7777', // 50
+    `hsl(120, 100%, ${colorLightness}%`, // 48
+    `hsl(300, 100%, ${colorLightness}%`, // 49
+    `hsl(0, 100%, ${colorLightness}%`, // 50
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 54
-    '#ff7777', // 55
-    '#ff7777', // 56
+    `hsl(0, 100%, ${colorLightness}%`, // 54
+    `hsl(0, 100%, ${colorLightness}%`, // 55
+    `hsl(0, 100%, ${colorLightness}%`, // 56
     '#000000', //
     '#000000', //
     '#000000', //
-    '#77ff77', // 60
+    `hsl(120, 100%, ${colorLightness}%`, // 60
     '#000000', //
     '#000000', //
-    '#ff7777', // 63
-    '#ff7777', // 64
+    `hsl(0, 100%, ${colorLightness}%`, // 63
+    `hsl(300, 100%, ${colorLightness}%`, // 64
     '#000000', //
-    '#ff7777', // 66
+    `hsl(0, 100%, ${colorLightness}%`, // 66
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 70
+    `hsl(0, 100%, ${colorLightness}%`, // 70
     '#000000', //
-    '#77ff77', // 72
+    `hsl(120, 100%, ${colorLightness}%`, // 72
     '#000000', //
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 77
+    `hsl(0, 100%, ${colorLightness}%`, // 77
     '#000000', //
     '#000000', //
-    '#ff7777', // 80
-    '#ff7777', // 81
+    `hsl(0, 100%, ${colorLightness}%`, // 80
+    `hsl(300, 100%, ${colorLightness}%`, // 81
     '#000000', //
     '#000000', //
-    '#ff7777', // 84
+    `hsl(0, 100%, ${colorLightness}%`, // 84
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 88
+    `hsl(0, 100%, ${colorLightness}%`, // 88
     '#000000', //
-    '#ff7777', // 90
+    `hsl(0, 100%, ${colorLightness}%`, // 90
     '#000000', //
     '#000000', //
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 96
+    `hsl(0, 100%, ${colorLightness}%`, // 96
     '#000000', //
     '#000000', //
-    '#ff7777', // 99
-    '#ff7777', // 100
+    `hsl(0, 100%, ${colorLightness}%`, // 99
+    `hsl(300, 100%, ${colorLightness}%`, // 100
     '#000000', //
     '#000000', //
     '#000000', //
@@ -114,9 +116,9 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 108
+    `hsl(0, 100%, ${colorLightness}%`, // 108
     '#000000', //
-    '#ff7777', // 110
+    `hsl(0, 100%, ${colorLightness}%`, // 110
     '#000000', //
     '#000000', //
     '#000000', //
@@ -126,8 +128,8 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 120
-    '#ff7777', // 121
+    `hsl(0, 100%, ${colorLightness}%`, // 120
+    `hsl(300, 100%, ${colorLightness}%`, // 121
     '#000000', //
     '#000000', //
     '#000000', //
@@ -138,7 +140,7 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777', // 132
+    `hsl(0, 100%, ${colorLightness}%`, // 132
     '#000000', //
     '#000000', //
     '#000000', //
@@ -150,10 +152,8 @@ const frequencies = [
     '#000000', //
     '#000000', //
     '#000000', //
-    '#ff7777' // 144
+    `hsl(300, 100%, ${colorLightness}%` // 144
 ];
-
-console.log(frequencies.length)
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -220,14 +220,16 @@ function drawCircle (x, y) {
 }
 
 function populateCell (text, x, y, color) {
-    if (!color) {
-        ctx.fillStyle = frequencies[parseInt(text)];
+    if (text !== 0) {
+        if (!color) {
+            ctx.fillStyle = frequencies[parseInt(text)];
+        }
+        ctx.fillText(text, (x + 1) * cellWidth, (y + 1) * cellHeight);
+        }
     }
-    ctx.fillText(text, (x + 1) * cellWidth, (y + 1) * cellHeight);
-}
 
 function drawTable () {
-    ctx.strokeStyle = '#ffffff';
+    ctx.strokeStyle = `hsl(0, 0%, ${lineLightness}%)`;
     for (let i = 0; i < rowsArray.length; i++) {
         rowsArray[i].draw();
     }
